@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cores.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Noticia portuCales</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <label class="logo"></label>
+                <a class="logotipo" href="index.html"></a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="quemsomos.html">QUEM SOMOS</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                    <li><a href="saibamais.html">SAIBA MAIS </a></li>
+                </ul>
+                <ul class="nav-acessibilidade">
+                    <li name="increase-font" id="increase-font" title="Aumentar fonte">
+                        <img class="aumento" alt="Aumentar a letra" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="> 
+                    </li> 
+                    <li name="decrease-font" id="decrease-font" title="Diminuir fonte">
+                        <img class="diminuicao" alt="Diminuir" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
+                    </li>
+                    <li class="toggle">
+                        <input id="switch" name="theme" type="checkbox">
+                        <label for="switch">Alto contraste</label>
+                    </li>
+                </ul>    
+            </nav>
+        </header>
+        <main>
+            <section class="secaoDestaque"></section>
+            <section class="descricaoDestaque">
+                <p>VOLTANDO  PARA A REALIDADE, UM PASSO DE CADA VEZ...</p>
+                <br>
+                <p>No momento atual, sabemos que estamos confrontando com várias notícias intrigantes e desanimadoras desde que a Organização Mundial da Saúde (OMS) decretou a pandemia do novo coronavírus, conhecido como COVID – 19 no dia 11 de março de 2020. A partir disto, a maneira de viver de forma social e profissional mudou, principalmente os hábitos. Como por exemplo: não poder mais abraçar, dar um beijo no rosto, dar um toque na pele e se sentar ao lado na pessoa que você gosta muito. Em virtude dos avanços dos multiprofissionais nas áreas de saúde e tecnologia, as vacinas foram criadas com a velocidade acelerada para tentar frear os contágios da COVID-19. É importante enfatizá-lo que mesmo nas fases muitos difíceis, estão aparecendo as boas notícias. Essa é a nossa missão!</p>
+            </section>
+
+            <section class="secaoVideo">
+
+                <div class="secaoVideoTexto">
+                    <p>A doação de 80 mil medicamentos do kit intubação já partiram da Espanha rumo ao Brasil. Os anestésicos, sedativos e bloqueadores neuromusculares serão rapidamente distribuídos para todos os estados. Esse é o Ministério da Saúde trabalhando por você.</p>
+                </div>
+
+                <div class="video">
+                    <embed width="460 " height="255" src="https://www.youtube.com/embed/LPyxwC0Fb8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+                </div>
+            </section>
+
+            <ul class="secaoDestaques3">
+                <li>
+                    <img class="imgDestaque" src="imagens/noticia2.png">
+                    <p class="textoDestaque">Exercícios regulares previnem agravamento da Covid-19...
+                        <br>
+                        <a class="saibaMais" href="https://ge.globo.com/eu-atleta/saude/noticia/exercicios-regulares-previnem-agravamento-da-covid-19.ghtml">Saiba mais</a>
+                    </p>
+                </li>
+                <li>
+                    <img class="imgDestaque" src="imagens/noticia3.png">
+                    <p class="textoDestaque">Veja países em que o uso de máscaras não é mais obrigatório... 
+                        <br>
+                        <a class="saibaMais" href="https://www.cnnbrasil.com.br/saude/2021/06/22/veja-paises-em-que-o-uso-de-mascaras-nao-e-mais-obrigatorio">Saiba mais</a>
+                    </p>
+                </li>
+                <li>
+                    <img class="imgDestaque" src="imagens/noticia4.png">
+                    <p class="textoDestaque">Idoso, hipertenso e diabético vence covid-19 e vira exemplo de força no DF... 
+                        <br>
+                        <a class="saibaMais" href="https://www.correiobraziliense.com.br/app/noticia/cidades/2020/07/05/interna_cidadesdf,869624/idoso-hipertenso-e-diabetico-vence-covid-19-e-vira-exemplo-de-forca-n.shtml">Saiba mais</a>
+                    </p>
+                </li>
+            </ul>
+        </main>
+
+        <footer>
+            <div class="copyright">
+                <p>G19 - PROJETO DE NOTÍCIA DE PORTUCALES</p>
+            </div>
+            <div class="contato">
+                <a class="contatoWhatsapp" href="https://api.whatsapp.com/send?phone=48985050313&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias." target="_blank">
+                <img src="imagens/whatsapp-logo-4.png" width="40px" height="40px" alt="WhatsApp"></a>
+                <a class="contatoEmail" href="mailto:gamaacademyg9@gmail.com?Subject=Hello%20again" target="_top">
+                <img id="envelope" img src="imagens/png-email.png" width="40px" height="40px" alt="Envelope"></a>
+            </div>
+        </footer>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+        <script src="js/acessibilidade.js"></script>
+        <script src="js/aumentadiminuir.js"></script>
+    </body>
+</html>

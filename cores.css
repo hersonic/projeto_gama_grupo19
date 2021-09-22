@@ -1,0 +1,16 @@
+:root
+{
+  /* Navbar */
+  --nav-bg: #ff4500;
+
+  --color1: #FFFFFF;
+  --color2: #000000;
+  --color3: #FFFFFF;
+  --color4: #631b00;
+  --color5: #FFFFFF;
+  --color6: #000000;
+
+  --portugal: url("./imagens/mapa-de-portugal.svg");
+  --aumento: url("./imagens/aumento-de-letra.svg");
+  --diminuir: url("./imagens/diminuicao-de-letra.svg");
+}
